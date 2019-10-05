@@ -41,9 +41,7 @@ ui = shinyUI(dashboardPage(
       menuItem("Aviation", tabName = "avi", icon = icon("plane")),
       menuItem("PATH", tabName = "path", icon = icon("train")),
       menuItem("Ferry", tabName = "ferry", icon = icon("ship"))
-      #menuItem("Compare Variables", tabName = "compare"),
-      #menuItem("Transport Indicators", tabName = "trans")
-      #menuItem("Economic Indicators", tabName = "eco") 
+
     )
   ),
   dashboardBody(
