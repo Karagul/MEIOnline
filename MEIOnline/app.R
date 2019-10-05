@@ -50,7 +50,7 @@ ui = shinyUI(dashboardPage(
       
       
       # ACTUAL First tab content
-      tabItem(tabName = "region", h2("Regional Economics"),
+      tabItem(tabName = "region", h2("Regionall Economics"),
               fluidRow(
                 column(8,
                        radioButtons("rep_region", "",
