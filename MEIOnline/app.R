@@ -90,7 +90,7 @@ ui = shinyUI(dashboardPage(
       
       
       # ACTUAL Second tab content
-      tabItem(tabName = "property", h2("Property"),
+      tabItem(tabName = "property", h2("Property is tough in NYC"),
               fluidRow(
                 column(8,
                        radioButtons("rep_property", "",
